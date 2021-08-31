@@ -14,7 +14,7 @@
 | `href`          | `href`            |             | `string`                                                                     | `undefined` |
 | `idelement`     | `idelement`       |             | `string`                                                                     | `undefined` |
 | `loading`       | `loading`         |             | `boolean`                                                                    | `false`     |
-| `size`          | `size`            |             | `"extra-large" \| "large" \| "medium" \| "small"`                            | `'large'`   |
+| `size`          | `size`            |             | `"extra-large" \| "large" \| "medium" \| "small"`                            | `'medium'`  |
 | `tabIndexInner` | `tab-index-inner` |             | `number`                                                                     | `undefined` |
 | `value`         | `value`           |             | `string`                                                                     | `undefined` |
 
