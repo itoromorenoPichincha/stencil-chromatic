@@ -1,0 +1,147 @@
+/* 
+**  Table Component 
+*/
+.pichincha-table-host {
+  display: block;
+  height: 100%;
+  overflow: auto;
+}
+
+.pichincha-table {
+  width: 100%;
+  overflow: auto;
+  border-spacing: 0px 2px;
+}
+
+/* Table Header */
+.pichincha-table thead.sticky th {
+  z-index: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: var(--blue500);
+  color: var(--white);
+}
+
+.pichincha-table thead {
+  background-color: var(--blue500);
+  color: var(--white);
+}
+
+.pichincha-table thead.strong {
+  background-color: var(--blue500);
+  color: var(--white);
+}
+.pichincha-table thead.sticky.strong th {
+  background-color: var(--blue500);
+  color: var(--white);
+}
+
+.pichincha-table thead.discreet {
+  background-color: var(--darkGrey200);
+  color: var(--darkGrey500);
+}
+.pichincha-table thead.sticky.discreet th {
+  background-color: var(--darkGrey200);
+  color: var(--darkGrey500);
+}
+
+.pichincha-table thead.light {
+  background-color: var(--white);
+  color: var(--darkGrey500);
+}
+.pichincha-table thead.sticky.light th {
+  background-color: var(--white);
+  color: var(--darkGrey500);
+}
+
+.pichincha-table th {
+  font-family: Prelo-Bold, helvetica, arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+}
+
+/* Th Tables */
+.pichincha-table th.align-right {
+  text-align: right !important;
+}
+.pichincha-table th.align-left {
+  text-align: left !important;
+}
+.pichincha-table th.align-center {
+  text-align: center !important;
+}
+
+/* Table Body */
+.pichincha-table tbody tr:nth-child(even) {
+  background-color: var(--darkGrey100);
+}
+.pichincha-table tbody tr {
+  height: 64px;
+}
+.pichincha-table tbody tr:hover {
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px var(--strongBlue500);
+}
+.pichincha-table tbody.align-right tr td {
+  text-align: right;
+}
+.pichincha-table tbody.align-left tr td {
+  text-align: left;
+}
+.pichincha-table tbody.align-center tr td {
+  text-align: center;
+}
+
+/* Table Row */
+/* Align Th */
+.pichincha-table tr.align-right th {
+  text-align: right;
+}
+.pichincha-table tr.align-left th {
+  text-align: left;
+}
+.pichincha-table tr.align-center th {
+  text-align: center;
+}
+/* Align td */
+.pichincha-table tr.align-right td {
+  text-align: right;
+}
+.pichincha-table tr.align-left td {
+  text-align: left;
+}
+.pichincha-table tr.align-center td {
+  text-align: center;
+}
+
+/* Table Item */
+.pichincha-table th,
+td {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.pichincha-table td {
+  color: var(--darkGrey500);
+  font-family: Prelo-Medium, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 16px;
+}
+
+.pichincha-table td.align-right {
+  text-align: right !important;
+}
+.pichincha-table td.align-left {
+  text-align: left !important;
+}
+.pichincha-table td.align-center {
+  text-align: center !important;
+}

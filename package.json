@@ -1,0 +1,62 @@
+{
+  "name": "wc-design-pichincha",
+  "version": "1.0.3",
+  "description": "Stencil Component Starter",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/wc-design-pichincha/wc-design-pichincha.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --coverage",
+    "test.watch": "stencil test --spec --coverage --watchAll",
+    "generate": "stencil generate",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "storybook": "stencil build && start-storybook -p 6006 -s ./dist",
+    "build-storybook": "stencil build && build-storybook -s ./dist -c .storybook -o build",
+    "chromatic": "npx chromatic --project-token=162adfee08fb"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@stencil/core": "^2.2.0",
+    "@stencil/eslint-plugin": "^0.3.1",
+    "@stencil/react-output-target": "0.0.9",
+    "@stencil/sass": "^1.3.2",
+    "@storybook/addon-knobs": "6.1.9",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addons": "6.1.9",
+    "@storybook/html": "6.1.9",
+    "@types/jest": "25.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "babel-loader": "^8.1.0",
+    "chromatic": "^5.9.2",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "24.9.0",
+    "jest-cli": "26.0.1",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.3.0",
+    "typescript": "^4.0.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@teamhive/lottie-player": "^1.0.0",
+    "rxjs": "^6.6.3"
+  }
+}
