@@ -52,7 +52,7 @@ export class Button implements ComponentInterface {
             : null
         }
       >
-        Click me
+        Click me!
       </button>
     )
   }
