@@ -26,7 +26,7 @@ export class Button implements ComponentInterface {
   @Prop() public href: string
   @Prop() public idelement: string
   @Prop() public loading: boolean = false
-  @Prop() public size: 'medium' | 'small' | 'large' | 'extra-large' = 'large'
+  @Prop() public size: 'medium' | 'small' | 'large' | 'extra-large' = 'medium'
   @Prop() public tabIndexInner: number
   @Prop() public value: string
 
